@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
