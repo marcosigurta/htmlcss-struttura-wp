@@ -1,0 +1,65 @@
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+body {
+  padding: 1%;
+}
+
+/* HEADER */
+#header {
+  background-color: lightgrey;
+  width: 100%;
+  height: 100px;
+}
+
+/* MAIN */
+/* SECTION */
+main .section .block {
+  float: left;
+  margin: 1% 0;
+}
+
+main .section .left {
+  width: 25%;
+  border: 1px solid black;
+}
+
+main .section .middle {
+  width: 48%;
+  border: 1px solid black;
+  margin: 1% 1%;
+}
+
+main .section .right {
+  float: right;
+  width: 25%;
+  height: 250px;
+}
+
+/* SUB-SECTION */
+main .section .right .sub-section {
+  width: 100%;
+  border: 1px solid black;
+}
+
+main section .right .bottom {
+  margin-top: 10%;
+}
+
+/* FOOTER */
+#footer {
+  width: 100%;
+  height: 50px;
+  background-color: lightslategray;
+}
